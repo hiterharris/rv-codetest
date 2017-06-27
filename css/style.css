@@ -1,0 +1,53 @@
+html {
+  background-color: #FFCC66;
+  font-family: 'Arial';
+  letter-spacing: 1px; }
+  html h1 {
+    font-weight: 200;
+    color: #C6CCE5; }
+  html h2 {
+    font-weight: 200;
+    color: #727681; }
+  html h3 {
+    font-weight: 200; }
+  html h4 {
+    font-weight: 100;
+    color: #C6C6C6; }
+
+section {
+  width: 60%;
+  margin: 3% 20%;
+  display: flex;
+  box-shadow: 2px 2px 20px #888888; }
+
+.my-wallets {
+  width: 40%;
+  background-color: #F2F2F2; }
+
+.wallets-header {
+  display: flex;
+  justify-content: space-around; }
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.card {
+  padding: 10px 25px 0px 25px;
+  border-radius: 3px;
+  margin: 5% 15%;
+  background-color: #FFFFFF;
+  border: 2px solid #E1E1E1; }
+  .card img {
+    width: 25%; }
+
+.visa {
+  padding-top: 15px;
+  border: 3px solid #8094CC; }
+
+.current-balance {
+  width: 60%;
+  background-color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */
