@@ -19,4 +19,9 @@ $(document).ready(function() {
     $(this).parent().find('.card').css('border', '2px solid #E1E1E1');
     $(this).css('border', '3px solid #8094CC');
   });
+
+  $('.card-icon').click(function() {
+    $(this).parent().find('.card-select').css('border-bottom', '3px solid #E1E1E1');
+    $(this).css('border-bottom', '3px solid #8094CC');
+  });
 });
