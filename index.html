@@ -13,19 +13,33 @@
       <div class="my-wallets">
           <div class="wallets-header">
             <h2>My Wallets</h2>
-            <h1>+</h1>
+            <h1 id="add" class="add">+</h1>
           </div>
+
           <div class="cards-list">
+            <div id="new" class="card">
+              <div class="new-card">
+                <img class="card-icon visa-2 " src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2000px-Visa_Inc._logo.svg.png">
+                <img class="card-icon" src="http://www.hustlermoneyblog.com/wp-content/uploads/2017/01/american-express.png">
+                <img class="card-icon" src="http://pngimg.com/uploads/mastercard/mastercard_PNG14.png?i=1">
+              </div>
+              <input type="text" name="" value="Card Number">
+              <input type="text" name="" value="MM/YY">
+              <input type="text" name="" value="CVC">
+            </div>
+
             <div class="visa card">
               <img class="card-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2000px-Visa_Inc._logo.svg.png">
               <h3>**** **** **** 2562</h3>
               <h4>Valid Thru: 12/17</h4>
             </div>
+
             <div class="amex card">
               <img class="card-icon" src="http://www.hustlermoneyblog.com/wp-content/uploads/2017/01/american-express.png">
               <h3>**** ****** 21001</h3>
               <h4>Valid Thru: 07/19</h4>
             </div>
+
             <div class="mastercard card">
               <img class="card-icon" src="http://pngimg.com/uploads/mastercard/mastercard_PNG14.png?i=1">
               <h3>**** **** **** 8335</h3>
@@ -40,7 +54,7 @@
 </section>
 
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
