@@ -1,9 +1,11 @@
 $(document).ready(function() {
+
 // Hide and show new credit card
   $('#new').hide()
   $('#add').click(function() {
-    $('#new').toggle()
+    $('#new').toggle('slow')
   });
+
 // Toggle plus/minus sign
   $('#add').click(function() {
     var $this = $(this);
@@ -14,14 +16,20 @@ $(document).ready(function() {
       $this.text('-');
   }
   });
+
 // Card select border on click
   $('.card').click(function() {
     $(this).parent().find('.card').css('border', '2px solid #E1E1E1');
     $(this).css('border', '3px solid #8094CC');
   });
 
+// Select new card styling
   $('.card-icon').click(function() {
     $(this).parent().find('.card-select').css('border-bottom', '3px solid #E1E1E1');
     $(this).css('border-bottom', '3px solid #8094CC');
   });
+
+// Hide show card balances
+$('.amex-balance').hide();
+$('.mastercard-balance').hide();
 });

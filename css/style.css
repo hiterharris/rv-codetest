@@ -2,12 +2,6 @@ html {
   background-color: #FFCC66;
   font-family: 'Arial';
   letter-spacing: 1px; }
-  html h1 {
-    font-weight: 200;
-    color: #C6CCE5; }
-  html h2 {
-    font-weight: 200;
-    color: #727681; }
   html h3 {
     font-weight: 200; }
   html h4 {
@@ -30,6 +24,13 @@ section {
   .wallets-header h1 {
     line-height: .75;
     cursor: pointer; }
+  .wallets-header .add {
+    font-weight: 200;
+    color: #C6CCE5; }
+
+.header {
+  font-weight: 200;
+  color: #727681; }
 
 .cards-list {
   display: flex;
@@ -59,7 +60,21 @@ section {
   background-color: #FFFFFF; }
 
 input {
-  color: lightgrey;
+  color: black;
   margin: 5% 0%; }
+
+.balance-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+span {
+  font-size: 18px;
+  vertical-align: top; }
+
+.line {
+  border: 1px solid lightgrey;
+  width: 60%;
+  margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
