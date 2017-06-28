@@ -83,7 +83,7 @@ span {
 .transaction {
   display: flex;
   justify-content: space-around;
-  margin: 4% 10%; }
+  margin: 3% 10%; }
   .transaction p {
     margin-right: 10%;
     line-height: 2;
