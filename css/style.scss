@@ -139,10 +139,11 @@ span {
 }
 .menu-dropdown {
   width:30%;
-  border:1px solid black;
+  border:2px solid #E1E1E1;
+  border-radius: 4px;
   background:white;
   position: absolute;
-  margin:10% 0 0 5%;
+  margin:0 0 0 5%;
   img {
     width:50%;
     margin:20%;
@@ -150,7 +151,7 @@ span {
   }
 }
 
-@media (max-width:1040px) {
+@media (max-width:660px) {
   section {
     width:100%;
     margin:5% auto;
