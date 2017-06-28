@@ -1,13 +1,6 @@
 html {
   background-color:#FFCC66;
   font-family:'Arial';
-  h3 {
-    font-weight:200;
-  }
-  h4 {
-    font-weight:100;
-    color:#C6C6C6;
-  }
   letter-spacing:1px;
 }
 section {
@@ -51,6 +44,13 @@ section {
     width:25%;
   }
 }
+.card-num {
+  font-weight:200;
+}
+.date {
+  font-weight:100;
+  color:#C6C6C6;
+}
 .visa {
   padding-top:15px;
   border:3px solid #8094CC;
@@ -70,10 +70,13 @@ input {
   color:black;
   margin:5% 0%;
 }
+
+// Balance header
 .balance-header {
   display:flex;
   justify-content: space-around;
   align-items: center;
+  color:#45454F;
 }
 span {
   font-size: 18px;
@@ -83,4 +86,35 @@ span {
   border:1px solid lightgrey;
   width:60%;
   margin:auto;
+}
+
+// Balance list item
+.transaction{
+  display: flex;
+  justify-content: space-around;
+  margin:5% 10%;
+  p {
+    margin-right:10%;
+    line-height: 2;
+  }
+  .item {
+    line-height: 0;
+    width:75%;
+    h4 {
+      color:#45454F;
+    }
+    h5 {
+      font-weight:200;
+      color:#C6C6C6;
+    }
+  }
+}
+.expense {
+  color:#8697C5;
+}
+.payment {
+  color:#71CC46;
+}
+.top1 {
+  vertical-align:top;
 }

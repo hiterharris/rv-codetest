@@ -2,11 +2,6 @@ html {
   background-color: #FFCC66;
   font-family: 'Arial';
   letter-spacing: 1px; }
-  html h3 {
-    font-weight: 200; }
-  html h4 {
-    font-weight: 100;
-    color: #C6C6C6; }
 
 section {
   width: 60%;
@@ -46,6 +41,13 @@ section {
   .card img {
     width: 25%; }
 
+.card-num {
+  font-weight: 200; }
+
+.date {
+  font-weight: 100;
+  color: #C6C6C6; }
+
 .visa {
   padding-top: 15px;
   border: 3px solid #8094CC; }
@@ -66,7 +68,8 @@ input {
 .balance-header {
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  color: #45454F; }
 
 span {
   font-size: 18px;
@@ -76,5 +79,30 @@ span {
   border: 1px solid lightgrey;
   width: 60%;
   margin: auto; }
+
+.transaction {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 10%; }
+  .transaction p {
+    margin-right: 10%;
+    line-height: 2; }
+  .transaction .item {
+    line-height: 0;
+    width: 75%; }
+    .transaction .item h4 {
+      color: #45454F; }
+    .transaction .item h5 {
+      font-weight: 200;
+      color: #C6C6C6; }
+
+.expense {
+  color: #8697C5; }
+
+.payment {
+  color: #71CC46; }
+
+.top1 {
+  vertical-align: top; }
 
 /*# sourceMappingURL=style.css.map */
