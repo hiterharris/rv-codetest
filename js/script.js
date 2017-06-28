@@ -23,13 +23,31 @@ $(document).ready(function() {
     $(this).css('border', '3px solid #8094CC');
   });
 
-// Select new card styling
+// Select new card border bottom
   $('.card-icon').click(function() {
     $(this).parent().find('.card-select').css('border-bottom', '3px solid #E1E1E1');
     $(this).css('border-bottom', '3px solid #8094CC');
   });
 
-// Hide show card balances
+// Hide show different card balances
+$('.visa-balance').show();
 $('.amex-balance').hide();
 $('.mastercard-balance').hide();
+
+$('.amex').click(function() {
+  $('.amex-balance').show();
+  $('.visa-balance').hide();
+  $('.mastercard-balance').hide();
+  });
+$('.visa').click(function() {
+  $('.visa-balance').show();
+  $('.amex-balance').hide();
+  $('.mastercard-balance').hide();
+  });
+$('.mastercard').click(function() {
+  $('.mastercard-balance').show();
+  $('.amex-balance').hide();
+  $('.visa-balance').hide();
+  });
+
 });

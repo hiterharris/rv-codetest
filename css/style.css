@@ -18,10 +18,9 @@ section {
   justify-content: space-around; }
   .wallets-header h1 {
     line-height: .75;
-    cursor: pointer; }
-  .wallets-header .add {
     font-weight: 200;
-    color: #C6CCE5; }
+    color: #C6CCE5;
+    cursor: pointer; }
 
 .header {
   font-weight: 200;
@@ -37,7 +36,8 @@ section {
   border-radius: 4px;
   margin: 5% 15%;
   background-color: #FFFFFF;
-  border: 2px solid #E1E1E1; }
+  border: 2px solid #E1E1E1;
+  cursor: pointer; }
   .card img {
     width: 25%; }
 
@@ -83,10 +83,11 @@ span {
 .transaction {
   display: flex;
   justify-content: space-around;
-  margin: 5% 10%; }
+  margin: 4% 10%; }
   .transaction p {
     margin-right: 10%;
-    line-height: 2; }
+    line-height: 2;
+    vertical-align: top; }
   .transaction .item {
     line-height: 0;
     width: 75%; }
