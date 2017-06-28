@@ -50,4 +50,9 @@ $('.mastercard').click(function() {
   $('.visa-balance').hide();
   });
 
+$('.menu-dropdown').hide();
+$('.menu').click(function() {
+  $('.menu-dropdown').toggle('slow')
+});
+
 });

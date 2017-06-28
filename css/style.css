@@ -81,6 +81,11 @@ span {
   width: 60%;
   margin: auto; }
 
+.menu {
+  display: none;
+  width: 5%;
+  text-align: left; }
+
 .transaction {
   display: flex;
   justify-content: space-around;
@@ -108,16 +113,29 @@ span {
   vertical-align: top; }
 
 @media (max-width: 1300px) {
-  .current-balance {
-    width: 100%; }
-
   .my-wallets {
-    width: 100%;
-    margin: auto; } }
+    display: none; }
+
+  .menu {
+    display: inline-block; }
+
+  .current-balance {
+    width: 100%; } }
+.menu-dropdown {
+  width: 30%;
+  border: 1px solid black;
+  background: white;
+  position: absolute;
+  margin: 10% 0 0 5%; }
+  .menu-dropdown img {
+    width: 50%;
+    margin: 20%;
+    text-align: center; }
+
 @media (max-width: 1040px) {
   section {
     width: 100%;
-    margin: 0 auto; } }
+    margin: 5% auto; } }
 @media (max-width: 480px) {
   h5 {
     display: none; } }
